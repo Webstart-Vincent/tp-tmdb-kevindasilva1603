@@ -293,4 +293,27 @@ ul {
     .wrap {
         display: flex;
     }
+
+    .indicatoro {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        z-index: 2;
+        position: absolute;
+        margin-top: 400px;
+    }
+    .carousel {
+        display: flex;
+        width: 100%;
+        transition: all 2s ease-in-out;
+    }
+
+    article {
+        flex-shrink: 0;
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
 }
