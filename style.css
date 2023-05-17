@@ -286,7 +286,7 @@ section {
 
         font-family: 'Circular Std';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 400;
         font-size: 18px;
         line-height: 23px;
         margin-left: 10px;
@@ -395,5 +395,17 @@ section {
         color: #f9f9f9;
         margin-left: 30px;
         margin-top: 4px;
+    }
+
+    .previous {
+        background-color: transparent;
+    }
+
+    .next {
+        background-color: transparent;
+    }
+
+    .container {
+        height: 900px;
     }
 }
