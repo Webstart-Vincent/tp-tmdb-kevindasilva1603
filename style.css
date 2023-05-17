@@ -399,10 +399,18 @@ section {
 
     .previous {
         background-color: transparent;
+        width: 20px;
+        height: 20px;
+        font-size: 100px;
+        margin-left: 29px;
     }
 
     .next {
         background-color: transparent;
+        width: 20px;
+        height: 20px;
+        font-size: 100px;
+        margin-right: 72px;
     }
 
     .container {
